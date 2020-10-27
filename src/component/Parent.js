@@ -1,3 +1,6 @@
+import React, { useRef } from "react";
+import Child from "./Child";
+
 const Parent = () => {
   const childRef = useRef();
 
